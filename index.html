@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS Marketing Hub - Smart Strategy, Smarter Results!</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="schema.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header id="top">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="SS Marketing Hub Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#top"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#services"><i class="fas fa-tools"></i> Services</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Hidden by Default) -->
+    <section id="hero" class="hidden">
+        <h1>Smart Strategy, Smarter Results!</h1>
+        <p>Welcome to SS Marketing Hub – Grow your business with tailored digital solutions that deliver measurable success. 🚀✨</p>
+        <a href="#contact" class="cta-button">Get Started Today</a>
+    </section>
+
+    <!-- Services Section with Grid Layout -->
+    <section id="services">
+        <h2>Our Core Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Grow with Digital Marketing</h3>
+                <p>Unlock your brand’s potential with data-driven digital marketing strategies. From campaign planning to execution, we’ve got you covered.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-search"></i>
+                <h3>Rank High with SEO/SEM</h3>
+                <p>Boost your visibility with expert SEO and SEM. We optimize your presence to rank higher, attract traffic, and convert leads.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-users"></i>
+                <h3>Shine on Social Media</h3>
+                <p>Engage your audience and build a loyal following with creative social media campaigns tailored to your brand.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h3>Stunning Web Development</h3>
+                <p>Get a fast, responsive, and stunning website designed to showcase your business and drive results.</p>
+            </div>
+        </div>
+        <a href="#contact" class="cta-button">Learn More</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>Why Choose SS Marketing Hub?</h2>
+        <p>Founded in 2019, SS Marketing Hub blends creativity with strategy to deliver smarter results. Our team specializes in Digital Marketing, SEO/SEM, Social Media Marketing, and Web Development, ensuring your business thrives in a competitive digital landscape. With a focus on measurable outcomes and personalized solutions, we’re here to turn your vision into success.</p>
+        <p><strong>Smart Strategy, Smarter Results! 🌟</strong> – that’s the SS difference.</p>
+    </section>
+
+    <!-- CTA/Contact Form Section -->
+    <section id="contact">
+        <h2>Ready to Grow Smarter?</h2>
+        <p>Let’s craft a strategy that works for your business. Contact us today for a free consultation. 📩</p>
+        <form id="contact-form" action="https://formspree.io/f/xjkywygg" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone (Optional):</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website" placeholder="https://yourwebsite.com">
+
+            <label for="services">Services:</label>
+            <select id="services" name="services" required>
+                <option value="">Select a Service</option>
+                <option value="digital-marketing">Digital Marketing</option>
+                <option value="seo-sem">SEO/SEM</option>
+                <option value="social-media">Social Media Marketing</option>
+                <option value="web-development">Web Development</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-logo">
+            <img src="logo-footer.png" alt="SS Marketing Hub Logo">
+        </div>
+        <p><strong>Address:</strong> Bembal, Chandrapur, Maharashtra, India - 441228</p>
+        <p><strong>Contact:</strong> +91-7499422093 | Email: <a href="mailto:ssmarketinghubs@gmail.com">ssmarketinghubs@gmail.com</a></p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/company/ss-marketing-hub/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://x.com/SSMarketingHub" target="_blank"><i class="fab fa-x-twitter"></i> X</a></li>
+            <li><a href="https://www.facebook.com/ssmarketing19" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://www.instagram.com/ssmarketing19/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://github.com/ssmarketinghub" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+        <p class="copyright">© 2019-2025 SS Marketing Hub | Smart Strategy, Smarter Results!</p>
+    </footer>
+</body>
+</html>
